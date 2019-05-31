@@ -10,7 +10,7 @@ def train_nlu(data, configs, model_dir):
 	model_directory = trainer.persist(model_dir, fixed_model_name = 'weathernlu')
 	
 def run_nlu():
-	interpreter = Interpreter.load('./models/nlu/default/weathernlu')
+	interpreter = Interpreter.load(' ./models/nlu/default/weathernlu')
 	print(interpreter.parse(u"I am planning my holiday to Lithuania. I wonder what is the weather out there."))
 	
 if __name__ == '__main__':
