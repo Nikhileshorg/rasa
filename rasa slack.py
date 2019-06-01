@@ -25,7 +25,7 @@ class SlackBot(OutputChannel):
 		recipient = recipient_id
 		
 		CLIENT = SlackClient(self.slack_verification_token)
-		CLIENT.api_call('chat.postMessage', channel = self.channel, text = text, as_user = True)
+		CLIENT.api_call('chat.postMessage',  channel = self.channel, text = text, as_user = True)
 		
 
 
