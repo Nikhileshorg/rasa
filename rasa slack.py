@@ -19,7 +19,7 @@ class SlackBot(OutputChannel):
 		self.slack_verification_token = slack_verification_token
 		self.channel = channel
 		
-	def send_text_message(self, recipient_id, message):
+	def send_text_message(self,  recipient_id, message):
 		from slackclient import SlackClient
 		text = message
 		recipient = recipient_id
