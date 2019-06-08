@@ -3,7 +3,7 @@ from __future__ import division
 from __future__ import print_function
 from __future__ import unicode_literals
 
-# from rasa_nlu.converters import load_data
+from rasa_nlu.converters import load_data
 from rasa_nlu.training_data import load_data
 from rasa_nlu.config import RasaNLUModelConfig
 #from rasa_nlu.config import RasaNLUConfig
