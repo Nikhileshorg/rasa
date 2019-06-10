@@ -15,6 +15,7 @@ entities:
 templates:
   utter_greet:
     - 'Hello! How can I help?'
+    - 'Hello! How are you?'
   utter_goodbye:
     - 'Talk to you later.'
     - 'Bye bye :('
