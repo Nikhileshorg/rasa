@@ -1,9 +1,9 @@
 
-### Training the NLU model
+#### Training the NLU model ####
 
 ``` python nlu_model.py ```
 
-### Training the Rasa Core model
+#### Training the Rasa Core model ####
 
 The biggest change in how Rasa Core model works is that custom action 'action_weather' now needs to run on a separate server. That server has to be configured in a 'endpoints.yml' file.  This is how to train and run the dialogue management model:  
 1. Start the custom action server by running:  
@@ -16,7 +16,7 @@ The biggest change in how Rasa Core model works is that custom action 'action_we
  
 3. Talk to the chatbot once it's loaded.  
 
-### Starting the interactive training session:
+#### Starting the interactive training session ####
 
 The process of running the interactive session is very similar to training the Rasa Core model:
 1. Make sure the custom actions server is running:  
@@ -27,7 +27,7 @@ The process of running the interactive session is very similar to training the R
 
 ``` python train_interactive.py ```  
 
-### Connecting a chatbot to Slack:
+#### Connecting a chatbot to Slack ####
 1. Configure the slack app as shown in the video  
 2. Make sure custom actions server is running  
 3. Start the agent by running run_app.py file (don't forget to provide the slack_token)  
